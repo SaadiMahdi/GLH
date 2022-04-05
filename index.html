@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- word to morse code -->
+    <h1>English to Morse Code</h1>
+    <div class="input-group mb-3">
+      <input type="text" id="inputWord" />
+      <div class="input-group-append">
+        <button type="button" id="submitWord" onclick="encryptWord()">
+          Submit
+        </button>
+      </div>
+    </div>
+    <textarea id="translateWord"></textarea>
+
+    <!-- morse code to english -->
+    <br />
+    <h1>Morse Code to English</h1>
+    <div class="input-group mb-3">
+      <input type="text" id="inputCode" />
+      <div class="input-group-append">
+        <button type="button" onclick="encryptCode()">Submit</button>
+      </div>
+    </div>
+
+    <textarea id="translateCode"></textarea>
+
+    <script src="script.js"></script>
+  </body>
+</html>
